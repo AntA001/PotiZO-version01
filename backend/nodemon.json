@@ -1,0 +1,8 @@
+{
+	"env": {
+		"DB_USER": "mot-tree",
+		"DB_PASSWORD": "TaDentraMou",
+		"DB_NAME": "MoT-Trees",
+		"JWT_KEY": "FCKeDHMLgyJtF5ZG"
+	}
+}

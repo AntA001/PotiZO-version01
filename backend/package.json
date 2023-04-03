@@ -1,0 +1,30 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.2",
+		"express": "^4.17.3",
+		"express-validator": "^6.2.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.7.8",
+		"mongoose-unique-validator": "^2.0.3",
+		"multer": "^1.4.2",
+		"node-schedule": "^2.1.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.4"
+	},
+	"engines": {
+		"node": "14.17.3"
+	}
+}
